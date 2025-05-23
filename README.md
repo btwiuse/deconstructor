@@ -1,5 +1,7 @@
 # Word Deconstructor
 
+[![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/btwiuse/deconstructor)
+
 A beautiful and interactive web application that deconstructs words into their meaningful parts and explains their etymology. Built with Next.js, React Flow, and powered by AI.
 
 ## Features
