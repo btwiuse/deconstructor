@@ -10,11 +10,11 @@ const notoSerif = Noto_Serif({
 });
 
 export const metadata: Metadata = {
-  title: "deconstructor.",
+  title: "WordNet",
   description: "truly understand language.",
   openGraph: {
-    title: "deconstructor.",
-    siteName: "deconstructor.",
+    title: "WordNet",
+    siteName: "WordNet",
     description: "truly understand language.",
     images: "/og.png",
   },
@@ -28,9 +28,11 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
+        <link rel="manifest" type="application/manifest+json" href="/manifest.json" />
+        <meta name="theme-color" content="#000000" />
         <PlausibleProvider
-          domain="deconstructor.ayush.digital"
-          customDomain="https://a.ayush.digital"
+          domain="wordnet.app"
+          customDomain="https://wordnet.app"
           trackOutboundLinks
           selfHosted
           taggedEvents
